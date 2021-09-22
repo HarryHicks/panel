@@ -129,7 +129,7 @@ const ServerRouter = ({ match, location }: RouteComponentProps<{ id: string }>) 
                                 <a href={'https://discord.gg/example'} rel="noreferrer" target={'_blank'}>
                                     Discord
                                 </a>
-                                
+
                                 {rootAdmin &&
                                 <a href={'/admin/servers/view/' + serverId} rel="noreferrer" target={'_blank'}>
                                     <FontAwesomeIcon icon={faExternalLinkAlt}/>
