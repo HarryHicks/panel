@@ -126,6 +126,10 @@ const ServerRouter = ({ match, location }: RouteComponentProps<{ id: string }>) 
                                 <Can action={[ 'settings.*', 'file.sftp' ]} matchAny>
                                     <NavLink to={`${match.url}/settings`}>Settings</NavLink>
                                 </Can>
+                                <Can action={[ 'discord.*', 'file.sftp' ]} matchAny>
+                                    <NavLink to={`discord.gg/example`}>Discord</NavLink>
+                                </Can>
+                                
                                 {rootAdmin &&
                                 <a href={'/admin/servers/view/' + serverId} rel="noreferrer" target={'_blank'}>
                                     <FontAwesomeIcon icon={faExternalLinkAlt}/>
