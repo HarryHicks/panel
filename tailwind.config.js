@@ -1,3 +1,5 @@
+const colors = require('tailwindcss/colors')
+
 module.exports = {
     theme: {
         fontFamily: {
@@ -9,7 +11,7 @@ module.exports = {
             transparent: 'transparent',
             black: 'hsl(210, 27%, 10%)',
             white: '#ffffff',
-            primary: colors.indigo,
+            primary: colors.violet,
             neutral: {
                 50: 'hsl(216, 33%, 97%)',
                 100: 'hsl(214, 15%, 91%)',
