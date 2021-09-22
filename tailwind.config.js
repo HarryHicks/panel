@@ -11,8 +11,19 @@ module.exports = {
             transparent: 'transparent',
             black: 'hsl(210, 27%, 10%)',
             white: '#ffffff',
-            primary: colors.violet,
-            neutral: colors.violet,
+            primary: {
+                50: 'hsl(202, 100%, 95%)', // lightest
+                100: 'hsl(204, 100%, 86%)', // lighter
+                200: 'hsl(206, 93%, 73%)',
+                300: 'hsl(208, 88%, 62%)',
+                400: 'hsl(210, 83%, 53%)', // light
+                500: 'hsl(212, 92%, 43%)', // base
+                600: 'hsl(214, 95%, 36%)', // dark
+                700: 'hsl(215, 96%, 32%)',
+                800: 'hsl(216, 98%, 25%)', // darker
+                900: 'hsl(218, 100%, 17%)', // darkest
+            },
+            neutral: colors.red,
             red: {
                 50: 'hsl(360, 100%, 95%)',
                 100: 'hsl(360, 100%, 87%)',
