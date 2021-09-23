@@ -17,7 +17,7 @@ import { usePersistedState } from '@/plugins/usePersistedState';
 import { SocketEvent, SocketRequest } from '@/components/server/events';
 
 const theme = {
-    background: th`colors.black`.toString(),
+    background: th`colors.white`.toString(),
     cursor: 'transparent',
     black: th`colors.black`.toString(),
     red: '#E54B4B',
